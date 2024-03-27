@@ -1,4 +1,10 @@
 import React from "react";
+import AIMG2 from "../assets/Aimg/Aimg2.png";
+import AIMG3 from "../assets/Aimg/Aimg3.png";
+import AIMG4 from "../assets/Aimg/Aimg4.png";
+import AIMG5 from "../assets/Aimg/Aimg5.png";
+import AIMG6 from "../assets/Aimg/Aimg6.png";
+import AIMG7 from "../assets/Aimg/Aimg7.png";
 
 const Ahero2 = () => {
   return (
@@ -9,7 +15,7 @@ const Ahero2 = () => {
             Our Popular Picks
           </h1>
           <img
-            src="src/assets/Aimg/Aimg2.png "
+            src={AIMG2}
             alt="Aimg2"
             className="w-[90px] ml-[150px] mt-8 lg:w-[300px] lg:mt-14  -rotate-[20deg] lg:ml-[570px]"
           />
@@ -121,7 +127,7 @@ const Ahero2 = () => {
           <div className="lg:grid lg:grid-cols-4 lg:px-32 lg:mt-14 grid grid-cols-2 px-14 mt-8 -ml-10">
             <div className="mt-10 ml-16">
               <img
-                src="src/assets/Aimg/Aimg3.png "
+                src={AIMG3}
                 alt="Aimg3"
                 className="rounded-full lg:p-12 lg:w-[250px] lg:h-[250px] w-[55px] h-[55px] ml-3  "
               />
@@ -134,7 +140,7 @@ const Ahero2 = () => {
             </div>
             <div className="mt-10 ml-16">
               <img
-                src="src/assets/Aimg/Aimg4.png"
+                src={AIMG4}
                 alt="Aimg4"
                 className="rounded-full lg:p-12 lg:w-[250px] lg:h-[250px] w-[55px] h-[55px] ml-3  "
               />
@@ -147,8 +153,8 @@ const Ahero2 = () => {
             </div>
             <div className="mt-10 ml-16">
               <img
-                src="src/assets/Aimg/Aimg5.png"
-                alt="Aimg4"
+                src={AIMG5}
+                alt="Aimg5"
                 className="rounded-full lg:p-12 lg:w-[250px] lg:h-[250px] w-[55px] h-[55px] ml-3  "
               />
               <h1 className="font-leckerli text-mytext2 lg:ml-12 lg:text-[28px] mt-2 text-[12px] ">
@@ -161,8 +167,8 @@ const Ahero2 = () => {
             </div>
             <div className="mt-10 ml-16">
               <img
-                src="src/assets/Aimg/Aimg6.png"
-                alt="Aimg5"
+                src={AIMG6}
+                alt="Aimg6"
                 className="rounded-full lg:p-12 lg:w-[250px] lg:h-[250px] w-[55px] h-[55px] ml-3  "
               />
               <h1 className="font-leckerli text-mytext2 lg:ml-12 lg:text-[30px] mt-2 text-[14px] ">
@@ -202,7 +208,7 @@ const Ahero2 = () => {
               </div>
               <div className="max-sm:hidden lg:mt-[60px] lg:ml-[200px]">
                 <img
-                  src="src/assets/Aimg/Aimg7.png"
+                  src={AIMG7}
                   alt="Aimg7"
                   className="rounded-full w-[380px] h-[380px]"
                 />
@@ -210,7 +216,7 @@ const Ahero2 = () => {
               {/* Mobile screen  */}
               <div className="lg:hidden lg:mt-[60px] ml-[150px]">
                 <img
-                  src="src/assets/Aimg/Aimg7.png"
+                  src={AIMG7}
                   alt="Aimg7"
                   className="rounded-full w-[110px] h-[110px]"
                 />

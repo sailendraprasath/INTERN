@@ -1,4 +1,6 @@
 import React from "react";
+import MIMG1 from "../assets/Mimg/Mimg1.png";
+import MIMG2 from "../assets/Mimg/Mimg2.png";
 
 const Mhero = () => {
   return (
@@ -37,7 +39,7 @@ const Mhero = () => {
 
         <div className=" lg:ml-[480px] ml-[160px] py-22 lg:z-20 -mt-[200px] lg:-mt-[330px]">
           <img
-            src="src/assets/Mimg/Ming1.png"
+            src={MIMG1}
             alt="Mimg"
             className="lg:w-[220px] w-[100px] h-[100px]  lg:h-[220px] rounded-[600px]"
           />
@@ -45,7 +47,7 @@ const Mhero = () => {
 
         <div className=" lg:ml-[230px] lg:z-20 lg:py-16 -mt-6 lg:-mt-[120px]">
           <img
-            src="src/assets/Mimg/Mimg2.png"
+            src={MIMG2}
             alt="Mimg"
             className="lg:w-[160px] lg:h-[140px] w-[120px] h-[100px] py-3  rounded-full"
           />

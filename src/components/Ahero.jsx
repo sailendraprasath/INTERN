@@ -1,5 +1,7 @@
 import React from "react";
 import Ahero2 from "./Ahero2";
+import AIMG from "../assets/Coffee/Coffee2.png";
+import AIMG1 from "../assets/Aimg/Aimg1.png";
 
 const Ahero = () => {
   return (
@@ -8,7 +10,7 @@ const Ahero = () => {
         <div className="max-h-[500px] relative ">
           <div className="  lg:grid grid grid-cols-2 lg:grid-cols-2  ">
             <img
-              src="src/assets/Aimg/Aimg1.png"
+              src={AIMG1}
               alt=""
               className="rounded-xl w-[150px] lg:w-[290px] lg:ml-6  "
             />
@@ -38,7 +40,7 @@ const Ahero = () => {
       </div>
       <img
         className="w-full max-h-[500px] object-fill cursor-default select-none  "
-        src="src/assets/Coffee/Coffee2.png "
+        src={AIMG}
         alt=""
       />
       <Ahero2 />

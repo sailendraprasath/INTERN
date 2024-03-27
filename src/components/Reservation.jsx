@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Navbar from "./Nabar";
+import RIMG from "../assets/Reserveimg/Reserveimg1.png";
 
 const Reservation = () => {
   return (
@@ -29,7 +30,7 @@ const Reservation = () => {
         </div>
         <div className="lg:-mt-[80px] py-4 -mt-[50px] ml-[200px] lg:ml-[730px] lg:py-8">
           <img
-            src="src/assets/Reserveimg/Reserveimg1.png"
+            src={RIMG}
             alt=""
             className=" lg:w-[40px] w-[25px] h-[25px] lg:h-[40px] rounded-full"
           />

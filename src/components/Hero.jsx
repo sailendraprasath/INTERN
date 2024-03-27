@@ -1,4 +1,5 @@
 import React from "react";
+import HEROIMG from "../assets/Coffee/Coffee2.png";
 
 const Hero = () => {
   return (
@@ -25,7 +26,7 @@ const Hero = () => {
       </div>
       <img
         className="w-full max-h-[500px] object-fill   "
-        src="src/assets/Coffee/Coffee2.png "
+        src={HEROIMG}
         alt=""
       />
     </>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import Home from "./Home";
+import NAVIMG from "../assets/Coffee/Coffee.png";
 
 const Navbar = () => {
   const [activePage, setActivePage] = useState("Home");
@@ -13,11 +14,11 @@ const Navbar = () => {
   };
 
   const Links = [
-    { name: "Home", link: "/Home" },
+    { name: "Home", link: "/" },
     { name: "About", link: "/about" },
     { name: "Menu", link: "/menu" },
     { name: "Reservation", link: "/reservation" },
-    { name: "Contact", link: "/Home" },
+    { name: "Contact", link: "/" },
   ];
 
   return (
@@ -25,11 +26,7 @@ const Navbar = () => {
       <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4 table-fixed bg-myfont3 cursor-default select-none">
         <div className="flex items-center lg:-mt-10">
           <div>
-            <img
-              src="src/assets/Coffee/Coffee.png"
-              alt=""
-              className="w-[132px] h-[156px]"
-            />
+            <img src={NAVIMG} alt="" className="w-[132px] h-[156px]" />
           </div>
         </div>
         {/* nav links */}
