@@ -3,6 +3,10 @@ import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import Home from "./Home";
 import NAVIMG from "../assets/Coffee/Coffee.png";
+import { FaHome } from "react-icons/fa";
+import { MdRoundaboutRight, MdOutlineRestaurantMenu } from "react-icons/md";
+import { RiReservedFill } from "react-icons/ri";
+import { IoMdContact } from "react-icons/io";
 
 const Navbar = () => {
   const [activePage, setActivePage] = useState("Home");
@@ -14,11 +18,19 @@ const Navbar = () => {
   };
 
   const Links = [
-    { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
-    { name: "Menu", link: "/menu" },
-    { name: "Reservation", link: "/reservation" },
-    { name: "Contact", link: "/" },
+    { name: "HOME", link: "/", icon: <FaHome size={26} /> },
+    { name: "ABOUT", link: "/about", icon: <MdRoundaboutRight size={26} /> },
+    {
+      name: "MENU",
+      link: "/menu",
+      icon: <MdOutlineRestaurantMenu size={26} />,
+    },
+    {
+      name: "RESERVATION",
+      link: "/reservation",
+      icon: <RiReservedFill size={26} />,
+    },
+    { name: "CONTACT", link: "/", icon: <IoMdContact size={26} /> },
   ];
 
   return (
@@ -75,23 +87,26 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed top-0 left-0 w-[250px] lg:hidden h-screen bg-white z-10 duration-300"
-              : "fixed top-0 left-[-100%] w-[300px] lg:hidden h-screen bg-white z-10 duration-300"
+              ? "fixed top-0 left-0 w-[250px] lg:hidden h-screen bg-myfont3 z-10 duration-300"
+              : "fixed top-0 left-[-100%] w-[300px] lg:hidden h-screen bg-myfont3 z-10 duration-300"
           }
         >
           {/* Left Side Closer */}
           <AiOutlineClose
             onClick={() => setNav(!nav)}
             size={30}
-            className="absolute right-6 top-12 lg:hidden cursor-pointer text-black duration-700 rotate-180 scale-90 transition hover:scale-125 hover:-rotate-180  hover:duration-300 "
-          />{" "}
+            className="absolute right-6 top-12 lg:hidden cursor-pointer text-white  duration-700 rotate-180 scale-90 transition hover:scale-125 hover:-rotate-180  hover:duration-300 "
+          />
+          <h2 className="text-[25px] mt-[25px] ml-6 p-4 font-playfairDisplay  text-myfont2">
+            Coffee<span className="font-bold">Shop</span>
+          </h2>
           {/* nav links */}
           <div className="flex items-center lg:hidden z-50">
-            <ul className=" gap-20 mt-[150px] ml-10 grid grid-rows-5">
+            <ul className=" gap-14 mt-[70px] ml-6 grid grid-rows-5">
               {Links.map((link) => (
                 <li
                   key={link.name}
-                  className={`my-2 font-playfairDisplay text-xl ml-8 text-black ${
+                  className={`my-2 font-playfairDisplay text-xl -ml-16 bg-myfont3/35 text-center px-8 text-white/60 rounded-full py-1 ${
                     activePage === link.name ? "" : ""
                   }`}
                 >
@@ -99,12 +114,17 @@ const Navbar = () => {
                     to={link.link}
                     onClick={() => handlePageChange(link.name)}
                   >
-                    {link.name}
+                    <span className="grid px-12 grid-cols-2">
+                      {link.icon}
+                      {link.name}
+                    </span>
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
+
+          <img src={NAVIMG} alt="" className="w-[200px] h-[156px] ml-[40px]" />
         </div>
         {/* mobile nav  */}
         <div

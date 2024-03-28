@@ -17,7 +17,7 @@ const Ahero2 = () => {
           <img
             src={AIMG2}
             alt="Aimg2"
-            className="w-[90px] ml-[150px] mt-8 lg:w-[300px] lg:mt-14  -rotate-[20deg] lg:ml-[570px]"
+            className="w-[90px] ml-[140px] mt-8 lg:w-[300px] lg:mt-14  -rotate-[20deg] lg:ml-[570px]"
           />
           <div>
             {/* Left side container 1 ahmm pa  */}
@@ -183,14 +183,14 @@ const Ahero2 = () => {
         </div>
 
         {/* Why choose us ?? eyyyyy  */}
-        <div>
+        <div className="">
           <h1 className="lg:text-6xl mt-20 text-4xl  text-center font-playfairDisplay text-mytext1">
             Why choose us ?{" "}
           </h1>
           <div>
             <div className="lg:grid lg:grid-cols-2 py-10 grid grid-cols-1">
               {/* Large screen  */}
-              <div className="max-sm:hidden lg:w-[540px] lg:mt-[85px] lg:ml-[280px] lg:text-lg">
+              <div className="max-sm:hidden lg:w-[540px] lg:mt-[85px]  lg:ml-[280px] lg:text-lg">
                 <p className="text-myfont2">
                   Discover a haven of culinary delight at our cafe, where every
                   detail reflects our commitment to excellence. Nestled in
@@ -214,14 +214,14 @@ const Ahero2 = () => {
                 />
               </div>
               {/* Mobile screen  */}
-              <div className="lg:hidden lg:mt-[60px] ml-[150px]">
+              <div className="lg:hidden lg:mt-[60px] ml-[130px]">
                 <img
                   src={AIMG7}
                   alt="Aimg7"
                   className="rounded-full w-[110px] h-[110px]"
                 />
               </div>
-              <div className="lg:hidden w-[340px] mt-[15px] text-[10px] text-center ml-[25px] lg:text-lg">
+              <div className="lg:hidden w-[300px] mt-[15px]  text-[10px] text-center ml-[25px] lg:text-sm">
                 <p className="text-myfont2">
                   Discover a haven of culinary delight at our cafe, where every
                   detail reflects our commitment to excellence. Nestled in

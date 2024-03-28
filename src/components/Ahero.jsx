@@ -18,8 +18,8 @@ const Ahero = () => {
               <h1 className="lg:-ml-[350px] font-playfairDisplay text-mytext1 lg:text-6xl text-4xl">
                 Our Story
               </h1>
-              <div className="flex flex-col text-myfont2 ">
-                <p className="text-myfont2 text-[8px] lg:text-xl lg:-mt-1 lg:py-10 mt-8 lg:-ml-[350px] lg:w-[700px]">
+              <div className=" text-myfont2  ">
+                <p className="text-myfont2 text-[8px] lg:text-xl  lg:-mt-1 lg:py-10 mt-8 lg:-ml-[350px] lg:w-[700px]">
                   Welcome to PurePerk Cafe, where we're dedicated to crafting
                   exceptional coffee experiences. Our philosophy centers on
                   sourcing the finest beans, roasting them with precision, and

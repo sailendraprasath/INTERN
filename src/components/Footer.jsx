@@ -88,7 +88,7 @@ const Footer = () => {
                         type="email"
                         placeholder=" Enter your mail"
                       />
-                      <span className="bg-mytext1 lg:rounded-r-sm rounded-md lg:w-[46px] lg:h-[38.5px] w-[22px] h-[18.5px] lg:mt-[-0.3px]  mt-[9px] lg:ml-[3px]  -ml-[20px]">
+                      <span className="bg-mytext1 lg:rounded-r-sm rounded-md lg:w-[46px] lg:h-[38.5px] w-[22px] h-[18.5px] lg:mt-[0.1px]  mt-[9px] lg:ml-[3px]  -ml-[20px]">
                         <IoMdSend
                           size={10}
                           className="ml-2 mt-1 lg:size-5 lg:mt-2 lg:ml-4 size-2 cursor-pointer"
@@ -110,7 +110,7 @@ const Footer = () => {
           </div>
         </footer>
       </div>
-      <p className="text-white/55  max-sm:ml-14 px-4 py-6 text-xs lg:px-1 lg:py-5 lg:text-sm lg:ml-[580px]">
+      <p className="text-white/55  max-sm:ml-8 px-4  py-6 text-xs lg:px-1 lg:py-5 lg:text-sm lg:ml-[580px]">
         Copyright @ 2024 Pure Perk Café. All Rights Reserved.
       </p>
     </>

@@ -5,7 +5,7 @@ import MIMG2 from "../assets/Mimg/Mimg2.png";
 const Mhero = () => {
   return (
     <>
-      <div className="grid justify-center ml-10 lg:ml-[-150px] -mt-14 lg:py-[20px] items-center lg:-mt-10 max-w-[1640px] mx-auto p-4 table-fixed bg-myfont3 cursor-default select-none">
+      <div className="grid justify-center ml-4 lg:ml-[-150px] -mt-14 lg:py-[20px] items-center lg:-mt-10 max-w-[1640px] mx-auto p-4 table-fixed bg-myfont3 cursor-default select-none">
         {/* -mt-[150px]  */}
 
         <div className="bg-myMenu lg:z-10 lg:ml-[200px] py-1  w-[180px] h-[210px]  lg:w-[314px] lg:h-[360px] rounded-full relative mt-16 ">
