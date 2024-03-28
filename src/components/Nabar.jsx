@@ -102,7 +102,7 @@ const Navbar = () => {
           </h2>
           {/* nav links */}
           <div className="flex items-center lg:hidden z-50">
-            <ul className=" gap-14 mt-[70px] ml-6 grid grid-rows-5">
+            <ul className=" gap-14 mt-[30px] ml-6 grid grid-rows-5">
               {Links.map((link) => (
                 <li
                   key={link.name}
@@ -114,7 +114,7 @@ const Navbar = () => {
                     to={link.link}
                     onClick={() => handlePageChange(link.name)}
                   >
-                    <span className="grid px-12 grid-cols-2">
+                    <span className="grid px-12  grid-cols-2">
                       {link.icon}
                       {link.name}
                     </span>
@@ -124,7 +124,7 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <img src={NAVIMG} alt="" className="w-[200px] h-[156px] ml-[40px]" />
+          <img src={NAVIMG} alt="" className="w-[200px]  h-[156px] ml-[40px]" />
         </div>
         {/* mobile nav  */}
         <div
