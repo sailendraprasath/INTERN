@@ -14,10 +14,10 @@ const Footer = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {/* About us */}
             <div className="max-sm:text-center">
-              <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
+              <h1 className="text-2xl lg:ml-5 lg:text-4xl mb-4 font-playfairDisplay">
                 About Us
               </h1>
-              <p className="text-sm lg:-ml-16 lg:text-base">
+              <p className="text-sm lg:-ml-26 lg:text-base">
                 Our coffee shop offers a cozy ambiance and a diverse menu of
                 premium, globally sourced coffees. With skilled baristas, we
                 ensure each cup is crafted with passion. Join us for a
