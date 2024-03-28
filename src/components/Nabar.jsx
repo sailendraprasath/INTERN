@@ -82,7 +82,7 @@ const Navbar = () => {
         {nav ? (
           <div className="bg-black/80 lg:hidden fixed w-full h-screen z-10 top-0 left-0"></div>
         ) : (
-          ""
+          " "
         )}
         <div
           className={

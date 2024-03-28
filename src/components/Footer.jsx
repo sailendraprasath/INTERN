@@ -9,108 +9,82 @@ import { FaYoutube, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <div className=" cursor-default select-none py-10">
-        <footer className="bg-black/80 py-10 sm:py-10 md:py-12 lg:py-16 text-white">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex flex-col sm:flex-row justify-between items-center">
-              {/* Footer row 1  */}
-              <div className="lg:grid lg:grid-cols-4 lg:gap-16 grid grid-cols-4 ml-6 gap-6 ">
-                {/* About us ahm paa  */}
-                <div className="grid grid-rows-2 max-sm:-ml-1 ">
-                  <h1 className="lg:text-4xl lg:px-8  max-md:text-sm mb-4 sm:mb-0 font-playfairDisplay">
-                    About Us
-                  </h1>
-                  <p className="lg:-mt-14 lg:text-sm lg:w-[300px] lg:-ml-5 -mt-8 -ml-0 text-[5px] w-[60px]  ">
-                    Our coffee shop offers a cozy ambiance and a diverse menu of
-                    premium, globally sourced coffees. With skilled baristas, we
-                    ensure each cup is crafted with passion. Join us for a
-                    delightful and enriching coffee experience!{" "}
-                  </p>
-                </div>
+      <footer className="bg-black/80 py-10 sm:py-10 md:py-12 lg:py-16 text-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            {/* About us */}
+            <div className="max-sm:text-center">
+              <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
+                About Us
+              </h1>
+              <p className="text-sm lg:-ml-16 lg:text-base">
+                Our coffee shop offers a cozy ambiance and a diverse menu of
+                premium, globally sourced coffees. With skilled baristas, we
+                ensure each cup is crafted with passion. Join us for a
+                delightful and enriching coffee experience!
+              </p>
+            </div>
 
-                {/* contact ahm paa  */}
-                <div className="grid grid-rows-4    -ml-5 lg:ml-[1px]">
-                  <h1 className="lg:text-4xl  lg:px-8   max-md:text-sm mb-4 sm:mb-0 font-playfairDisplay">
-                    Contact Us
-                  </h1>
-                  <li className=" lg:text-xl lg:gap-2 lg:ml-3  mt-1 flex text-[8px] ">
-                    <MdOutlineMail
-                      size={13}
-                      className=" lg:size-6 lg:mt-0 -mt-0.5 mr-1"
-                    />
-                    <span className="text-[7px] -mt-0.5 lg:text-[16px] ">
-                      iorem@gmail.com
-                    </span>
-                  </li>
-                  <li className="lg:text-xl lg:gap-2 lg:ml-3  -mt-1.5 flex text-[8px]">
-                    <FiPhoneCall
-                      size={13}
-                      className=" lg:size-6 lg:mt-0 mr-1 -mt-0.5"
-                    />
-                    <span className="text-[7px] lg:text-[16px] ">
-                      (+91-111 333 8888)
-                    </span>
-                  </li>
-                  <li className=" lg:text-xl lg:gap-2  lg:ml-3  -mt-4 flex text-[4px]">
-                    <MdOutlineHome
-                      size={13}
-                      className=" lg:size-8 lg:mt-0 mr-1 -mt-0.5"
-                    />
-                    <span className="text-[6px] mt-0.5 lg:text-[16px] ">
-                      Your Home Address Here
-                    </span>
-                  </li>
-                </div>
+            {/* Contact Us */}
+            <div className="max-sm:ml-[20px] lg:ml-10">
+              <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
+                Contact Us
+              </h1>
+              <ul className="space-y-2">
+                <li className="flex items-center text-xs lg:text-base">
+                  <MdOutlineMail size={16} className="mr-2 " />
+                  <span>iorem@gmail.com</span>
+                </li>
+                <li className="flex items-center text-xs lg:text-base">
+                  <FiPhoneCall size={16} className="mr-2" />
+                  <span>(+91-111 333 8888)</span>
+                </li>
+                <li className="flex items-center text-xs lg:text-base">
+                  <MdOutlineHome size={18} className="mr-2" />
+                  <span>Your Home Address Here</span>
+                </li>
+              </ul>
+            </div>
 
-                {/* Open Hours ahm paa  */}
-                <div className="grid grid-rows-4 -ml-6 ">
-                  <h1 className="lg:text-4xl lg:px-8  max-md:text-sm mb-4 sm:mb-0 font-playfairDisplay">
-                    Open Hours
-                  </h1>
-                  <p className="text-[6px] lg:text-xl lg:flex lg:w-[300px] w-[90px] mt-1">
-                    Monday - Friday....6Am - 10Pm
-                  </p>
-                  <p className="text-[6px] lg:text-xl lg:flex lg:w-[300px] w-[90px] -mt-5">
-                    Weekend days....12Am - 12Pm
-                  </p>
-                </div>
+            {/* Open Hours */}
+            <div className="max-sm:mt-[-145px] lg:ml-6 max-sm:ml-[180px]">
+              <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
+                Open Hours
+              </h1>
+              <p className="text-xs lg:text-base">
+                Monday - Friday....6Am - 10Pm
+              </p>
+              <p className="text-xs lg:text-base">
+                Weekend days....12Am - 12Pm
+              </p>
+            </div>
 
-                {/* Newsletter bar  */}
-                <div className="grid grid-rows-2 grid-cols-4 -ml-5 ">
-                  <h1 className="lg:text-4xl lg:px-8 text-2xl  max-md:text-sm mb-4 sm:mb-0 font-playfairDisplay">
-                    NewsLetter
-                  </h1>
-                  {/* Email ahm paa  */}
-                  <div className="border max-sm:grid max-sm:grid-rows-2 border-white lg:ml-[-40px]  lg:mt-20 mt-10  -ml-2 rounded-lg lg:rounded-none items-center px-2  lg:w-[199px] lg:h-[41px] w-[40px] h-[10px]">
-                    <div className="flex flex-row">
-                      <input
-                        className="bg-transparent w-[25px] lg:text-lg lg:-mt-2 -ml-1 text-[3px] lg:w-[150px] mt-[5px] focus:outline-none "
-                        type="email"
-                        placeholder=" Enter your mail"
-                      />
-                      <span className="bg-mytext1 lg:rounded-r-sm rounded-md lg:w-[46px] lg:h-[38.5px] w-[8px] h-[8px] lg:mt-[0.1px]  mt-[4px] lg:ml-[6.5px]  -ml-[-1px]">
-                        <IoMdSend
-                          size={10}
-                          className="ml-[1px] mt-[-0.1px] lg:size-5 lg:mt-2 lg:ml-4 size-2 cursor-pointer"
-                        />
-                      </span>
-                    </div>
-                    <div className="  lg:mt-6 max-sm:w-[80px] -ml-6 -mt-[-40px] lg:ml-[-20px] lg:gap-14 grid grid-cols-4 ">
-                      <SiFacebook className="lg:size-8 max-sm:size-2 ml-3" />
-                      <BsTwitterX className="lg:size-8 max-sm:size-2 ml-1 " />
-                      <FaYoutube className="lg:size-8 max-sm:size-2 -ml-1" />
-                      <FaInstagram className="lg:size-8 max-sm:size-2 ml-[-10px] " />
-                    </div>
-                  </div>
-
-                  {/* social media icon ahm pa  */}
-                </div>
+            {/* Newsletter */}
+            <div className="text-center max-sm:-mt-10 ">
+              <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
+                Newsletter
+              </h1>
+              <div className="flex">
+                <input
+                  className="flex-grow mr-2 text-center border border-white bg-transparent rounded-lg lg:text-lg outline-none"
+                  type="email"
+                  placeholder="Enter your mail"
+                />
+                <button className="bg-mytext1 text-white px-4 py-2  rounded-md text-sm lg:text-base">
+                  <IoMdSend />
+                </button>
+              </div>
+              <div className="flex space-x-5 lg:ml-10 max-sm:ml-[100px] lg:mt-8 mt-4">
+                <SiFacebook size={24} />
+                <BsTwitterX size={24} />
+                <FaYoutube size={24} />
+                <FaInstagram size={24} />
               </div>
             </div>
           </div>
-        </footer>
-      </div>
-      <p className="text-white/55  max-sm:ml-8 px-4  py-6 text-xs lg:px-1 lg:py-5 lg:text-sm lg:ml-[580px]">
+        </div>
+      </footer>
+      <p className="text-white/55 py-6 text-center mt-6 text-xs lg:text-sm">
         Copyright @ 2024 Pure Perk Café. All Rights Reserved.
       </p>
     </>
