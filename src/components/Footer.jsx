@@ -10,11 +10,11 @@ const Footer = () => {
   return (
     <>
       <div className=" cursor-default select-none py-10">
-        <footer className="bg-black/80 py-20 sm:py-10 md:py-12 lg:py-16 text-white">
+        <footer className="bg-black/80 py-10 sm:py-10 md:py-12 lg:py-16 text-white">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col sm:flex-row justify-between items-center">
               {/* Footer row 1  */}
-              <div className="lg:grid lg:grid-cols-4 lg:gap-16 grid grid-cols-4 -mt-5 gap-6 ">
+              <div className="lg:grid lg:grid-cols-4 lg:gap-16 grid grid-cols-4 ml-6 gap-6 ">
                 {/* About us ahm paa  */}
                 <div className="grid grid-rows-2 max-sm:-ml-1 ">
                   <h1 className="lg:text-4xl lg:px-8  max-md:text-sm mb-4 sm:mb-0 font-playfairDisplay">
@@ -29,8 +29,8 @@ const Footer = () => {
                 </div>
 
                 {/* contact ahm paa  */}
-                <div className="grid grid-rows-4  -ml-5 lg:ml-[15px]">
-                  <h1 className="lg:text-4xl  lg:px-8  max-md:text-sm mb-4 sm:mb-0 font-playfairDisplay">
+                <div className="grid grid-rows-4    -ml-5 lg:ml-[1px]">
+                  <h1 className="lg:text-4xl  lg:px-8   max-md:text-sm mb-4 sm:mb-0 font-playfairDisplay">
                     Contact Us
                   </h1>
                   <li className=" lg:text-xl lg:gap-2 lg:ml-3  mt-1 flex text-[8px] ">
@@ -63,7 +63,7 @@ const Footer = () => {
                 </div>
 
                 {/* Open Hours ahm paa  */}
-                <div className="grid grid-rows-4 -ml-5 ">
+                <div className="grid grid-rows-4 -ml-6 ">
                   <h1 className="lg:text-4xl lg:px-8  max-md:text-sm mb-4 sm:mb-0 font-playfairDisplay">
                     Open Hours
                   </h1>
@@ -76,30 +76,30 @@ const Footer = () => {
                 </div>
 
                 {/* Newsletter bar  */}
-                <div className="grid grid-rows-2 grid-cols-4 -ml-3 ">
-                  <h1 className="lg:text-4xl lg:px-8  max-md:text-sm mb-4 sm:mb-0 font-playfairDisplay">
+                <div className="grid grid-rows-2 grid-cols-4 -ml-5 ">
+                  <h1 className="lg:text-4xl lg:px-8 text-2xl  max-md:text-sm mb-4 sm:mb-0 font-playfairDisplay">
                     NewsLetter
                   </h1>
                   {/* Email ahm paa  */}
-                  <div className="border max-sm:grid max-sm:grid-rows-2 border-white  lg:mt-20 mt-10  -ml-6 rounded-lg lg:rounded-none items-center px-2  lg:w-[199px] lg:h-[41px] w-[80px] h-[20px]">
+                  <div className="border max-sm:grid max-sm:grid-rows-2 border-white lg:ml-[-40px]  lg:mt-20 mt-10  -ml-2 rounded-lg lg:rounded-none items-center px-2  lg:w-[199px] lg:h-[41px] w-[40px] h-[10px]">
                     <div className="flex flex-row">
                       <input
-                        className="bg-transparent lg:text-lg lg:-mt-2 text-[6px] lg:w-[150px] mt-2 focus:outline-none "
+                        className="bg-transparent w-[25px] lg:text-lg lg:-mt-2 -ml-1 text-[3px] lg:w-[150px] mt-[5px] focus:outline-none "
                         type="email"
                         placeholder=" Enter your mail"
                       />
-                      <span className="bg-mytext1 lg:rounded-r-sm rounded-md lg:w-[46px] lg:h-[38.5px] w-[22px] h-[18.5px] lg:mt-[0.1px]  mt-[9px] lg:ml-[3px]  -ml-[20px]">
+                      <span className="bg-mytext1 lg:rounded-r-sm rounded-md lg:w-[46px] lg:h-[38.5px] w-[8px] h-[8px] lg:mt-[0.1px]  mt-[4px] lg:ml-[6.5px]  -ml-[-1px]">
                         <IoMdSend
                           size={10}
-                          className="ml-2 mt-1 lg:size-5 lg:mt-2 lg:ml-4 size-2 cursor-pointer"
+                          className="ml-[1px] mt-[-0.1px] lg:size-5 lg:mt-2 lg:ml-4 size-2 cursor-pointer"
                         />
                       </span>
                     </div>
-                    <div className="  lg:mt-6 max-sm:w-[80px] -ml-2 -mt-[-60px] lg:ml-[-20px] lg:gap-14 grid grid-cols-4 gap-4">
-                      <SiFacebook className="lg:size-8 max-sm:size-3 ml-3" />
-                      <BsTwitterX className="lg:size-8 max-sm:size-3 ml-1 " />
-                      <FaYoutube className="lg:size-8 max-sm:size-3 -ml-1" />
-                      <FaInstagram className="lg:size-8 max-sm:size-3 ml-[-10px] " />
+                    <div className="  lg:mt-6 max-sm:w-[80px] -ml-6 -mt-[-40px] lg:ml-[-20px] lg:gap-14 grid grid-cols-4 ">
+                      <SiFacebook className="lg:size-8 max-sm:size-2 ml-3" />
+                      <BsTwitterX className="lg:size-8 max-sm:size-2 ml-1 " />
+                      <FaYoutube className="lg:size-8 max-sm:size-2 -ml-1" />
+                      <FaInstagram className="lg:size-8 max-sm:size-2 ml-[-10px] " />
                     </div>
                   </div>
 

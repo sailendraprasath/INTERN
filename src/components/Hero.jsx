@@ -17,7 +17,7 @@ const Hero = () => {
               coffee; it's a celebration of the pure joy in every cup.
             </p>
           </div>
-          <div className="lg:ml-[690px] lg:py-4  ml-[150px]">
+          <div className="lg:ml-[690px] lg:py-4  ml-[120px]">
             <button className="bg-mytext1 px-2 py-2 rounded-lg text-myfont2  ">
               Order Now
             </button>
