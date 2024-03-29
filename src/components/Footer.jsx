@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
 
             {/* Open Hours */}
-            <div className="max-sm:mt-[-145px] lg:ml-6 max-sm:ml-[180px]">
+            <div className="max-sm:mt-[-145px] lg:ml-6 max-sm:ml-[210px]">
               <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
                 Open Hours
               </h1>

@@ -28,8 +28,8 @@ const Ahero = () => {
                   Join us in our commitment to excellence , where every sip
                   tells a story. PurePerk Cafe – Elevate your coffee journey.
                 </p>
-                <div className="text-myfont2 mt-4 lg:-mt-5 rounded-3xl bg-mytext1 -ml-1 lg:-ml-[360px]  w-[100px]">
-                  <button className="ml-6 text-[12px] lg:text-[15px] lg:ml-3 lg:py-3 py-2">
+                <div className="text-myfont2 mt-4 lg:-mt-5 rounded-3xl bg-mytext1 -ml-[-30px] lg:-ml-[360px]  w-[100px]">
+                  <button className=" ml-6 text-[12px] lg:text-[15px] lg:ml-3 lg:py-3 py-2">
                     Read More
                   </button>
                 </div>

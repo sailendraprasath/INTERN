@@ -9,7 +9,7 @@ import AIMG7 from "../assets/Aimg/Aimg7.png";
 const Ahero2 = () => {
   return (
     <>
-      <div className="max-w-[1640px] mx-auto p-4 cursor-default select-none">
+      <div className="max-w-[1640px] max-sm:max-w-[375px] mx-auto p-4 cursor-default select-none">
         <div className="max-h-[500px] relative ">
           <h1 className="text-mytext1 font-playfairDisplay text-center mt-10 lg:text-6xl text-2xl ">
             Our Popular Picks
@@ -39,13 +39,13 @@ const Ahero2 = () => {
                     1/3 Milk
                   </h1>
                 </div>
-                <div className="grid grid-cols-2 -ml-[130px]">
+                <div className="grid grid-cols-2 -ml-[120px]">
                   <div>
                     <h1 className="font-leckerli text-mytext2/60 lg:text-[50px] lg:-ml-[410px] lg:-mt-1">
                       50%
                     </h1>
                   </div>
-                  <div className="lg:hidden text-mytext2/60  -mt-2 -ml-[125px]">
+                  <div className="lg:hidden text-mytext2/60  -mt-2 -ml-[110px]">
                     _________
                   </div>
                 </div>
@@ -70,13 +70,13 @@ const Ahero2 = () => {
                     1/3 Milk
                   </h1>
                 </div>
-                <div className="grid grid-cols-2 -ml-[130px]">
+                <div className="grid grid-cols-2 -ml-[120px]">
                   <div>
                     <h1 className="font-leckerli text-mytext2/60 lg:text-[50px] lg:-ml-[410px] lg:-mt-1">
                       50%
                     </h1>
                   </div>
-                  <div className="lg:hidden text-mytext2/60  -mt-2 -ml-[125px]">
+                  <div className="lg:hidden text-mytext2/60  -mt-2 -ml-[110px]">
                     _________
                   </div>
                 </div>
@@ -86,9 +86,9 @@ const Ahero2 = () => {
         </div>
 
         {/* Right side container 1 ahm pa  */}
-        <div className="lg:ml-[1400px] lg:mt-[-345px] mt-[-40px]">
+        <div className="lg:ml-[1400px] lg:mt-[-345px] mt-[-50px]">
           <div className="grid grid-cols-2 ">
-            <h1 className="font-leckerli text-mytext2/60 text-[10px] lg:text-[30px] ml-[330px] -mt-[10px] lg:-mt-1.5  lg:ml-[-180px] ">
+            <h1 className="font-leckerli text-mytext2/60 text-[10px] lg:text-[30px] ml-[300px] -mt-[10px] lg:-mt-1.5  lg:ml-[-180px] ">
               Black
             </h1>
             <div className="max-sm:hidden text-mytext2/60 lg:text-4xl  lg:-mt-6 lg:-ml-[545px]">
@@ -98,7 +98,7 @@ const Ahero2 = () => {
               1 cup of coffee <br />
               Not Sugar 50%
             </h1>
-            <div className="lg:hidden text-mytext2/60  -mt-10 ml-[235px]">
+            <div className="lg:hidden text-mytext2/60  -mt-8 ml-[220px]">
               _________
             </div>
           </div>
@@ -106,17 +106,17 @@ const Ahero2 = () => {
         {/* Right side container 2 ahm pa  */}
         <div className="lg:ml-[1400px] lg:mt-[125px] mt-[40px]">
           <div className="grid grid-cols-2 ">
-            <h1 className="font-leckerli text-mytext2/60 text-[10px] lg:text-[30px] ml-[330px] -mt-[10px] lg:-mt-1.5  lg:ml-[-180px] ">
+            <h1 className="font-leckerli text-mytext2/60 text-[10px] lg:text-[30px] ml-[300px] -mt-[10px] lg:-mt-1.5  lg:ml-[-180px] ">
               Black
             </h1>
             <div className="max-sm:hidden text-mytext2/60 lg:text-4xl  lg:-mt-6 lg:-ml-[545px]">
               _____________________
             </div>
-            <h1 className="font-leckerli text-mytext2/60 text-[8px] lg:text-[30px] ml-[112px] lg:-mt-1.5 lg:ml-[-280px]">
+            <h1 className="font-leckerli text-mytext2/60 text-[8px]  lg:text-[30px] ml-[112px] lg:-mt-1.5 lg:ml-[-280px]">
               1 cup of coffee <br />
               Not Sugar 50%
             </h1>
-            <div className="lg:hidden text-mytext2/60  -mt-10 ml-[235px]">
+            <div className="lg:hidden text-mytext2/60   -mt-8 ml-[220px]">
               _________
             </div>
           </div>
