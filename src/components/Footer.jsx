@@ -9,8 +9,8 @@ import { FaYoutube, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-black/80 py-10 sm:py-10 md:py-12 lg:py-16 text-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <footer className="bg-black/80 py-10 sm:py-10  md:py-12 lg:py-16 text-white">
+        <div className="container mx-auto px-4  sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {/* About us */}
             <div className="max-sm:text-center">
@@ -26,11 +26,11 @@ const Footer = () => {
             </div>
 
             {/* Contact Us */}
-            <div className="max-sm:ml-[20px] lg:ml-10">
-              <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
+            <div className="max-sm:ml-[50px] lg:ml-10">
+              <h1 className="text-2xl max-sm:ml-[75px] lg:text-4xl mb-4 font-playfairDisplay">
                 Contact Us
               </h1>
-              <ul className="space-y-2">
+              <ul className="space-y-2 max-sm:ml-10">
                 <li className="flex items-center text-xs lg:text-base">
                   <MdOutlineMail size={16} className="mr-2 " />
                   <span>iorem@gmail.com</span>
@@ -47,20 +47,20 @@ const Footer = () => {
             </div>
 
             {/* Open Hours */}
-            <div className="max-sm:mt-[-145px] lg:ml-6 max-sm:ml-[210px]">
-              <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
+            <div className=" lg:ml-6  ">
+              <h1 className="text-2xl max-sm:ml-[110px] lg:text-4xl mb-4 font-playfairDisplay">
                 Open Hours
               </h1>
-              <p className="text-xs lg:text-base">
+              <p className="text-xs max-sm:ml-[90px] lg:text-base">
                 Monday - Friday....6Am - 10Pm
               </p>
-              <p className="text-xs lg:text-base">
+              <p className="text-xs max-sm:ml-[90px] lg:text-base">
                 Weekend days....12Am - 12Pm
               </p>
             </div>
 
             {/* Newsletter */}
-            <div className="text-center max-sm:-mt-10 ">
+            <div className="text-center  ">
               <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
                 Newsletter
               </h1>
@@ -74,7 +74,7 @@ const Footer = () => {
                   <IoMdSend />
                 </button>
               </div>
-              <div className="flex space-x-5 lg:ml-10 max-sm:ml-[100px] lg:mt-8 mt-4">
+              <div className="flex space-x-5 lg:ml-10 max-sm:ml-[95px] lg:mt-8 mt-4">
                 <SiFacebook size={24} />
                 <BsTwitterX size={24} />
                 <FaYoutube size={24} />

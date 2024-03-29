@@ -4,7 +4,7 @@ import HEROIMG from "../assets/Coffee/Coffee2.png";
 const Hero = () => {
   return (
     <>
-      <div className="max-w-[1640px] mx-auto p-4 cursor-default select-none">
+      <div className="max-w-[1640px] max-sm:max-w-[350px] mx-auto p-4 cursor-default select-none">
         <div className="max-h-[500px] relative ">
           <div className="text-center text-myfont2 text-[35px] lg:text-8xl lg:-ml-16 lg:-mt-14 font-playfairDisplay">
             <h1>welcome to</h1>
@@ -18,7 +18,7 @@ const Hero = () => {
             </p>
           </div>
           <div className="lg:mx-auto lg:w-1/2 max-sm:px-24 lg:ml-[680px] lg:mt-8 mx-4">
-            <button className="bg-mytext1 px-4 py-2 rounded-lg text-myfont2 w-full lg:w-auto">
+            <button className="bg-mytext1 px-4 text-center max-sm:text-[10px] py-2 rounded-lg text-myfont2 w-full lg:w-auto">
               Order Now
             </button>
           </div>

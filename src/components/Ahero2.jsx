@@ -9,7 +9,7 @@ import AIMG7 from "../assets/Aimg/Aimg7.png";
 const Ahero2 = () => {
   return (
     <>
-      <div className="max-w-[1640px] max-sm:max-w-[375px] mx-auto p-4 cursor-default select-none">
+      <div className="max-w-[1640px] max-sm:max-w-[320px] mx-auto p-4 cursor-default select-none">
         <div className="max-h-[500px] relative ">
           <h1 className="text-mytext1 font-playfairDisplay text-center mt-10 lg:text-6xl text-2xl ">
             Our Popular Picks
@@ -17,16 +17,16 @@ const Ahero2 = () => {
           <img
             src={AIMG2}
             alt="Aimg2"
-            className="w-[90px] ml-[140px] mt-8 lg:w-[300px] lg:mt-14  -rotate-[20deg] lg:ml-[570px]"
+            className="w-[75px] ml-[125px] mt-8 py-6  lg:w-[300px] lg:mt-20  -rotate-[20deg] lg:ml-[590px]"
           />
           <div>
             {/* Left side container 1 ahmm pa  */}
-            <div className="lg:-mt-[260px] lg:ml-[140px] -mt-[30px] ">
+            <div className="lg:-mt-[280px] lg:ml-[140px] -mt-[50px] ">
               <div className="grid grid-cols-2 ">
                 <h1 className="font-leckerli text-mytext2/60 text-[10px] lg:text-[30px] ">
                   Latte
                 </h1>
-                <div className="max-sm:hidden text-mytext2/60 lg:text-4xl  lg:-mt-6 lg:-ml-[545px]">
+                <div className="max-sm:hidden text-mytext2/60 lg:text-4xl  lg:-mt-4 lg:-ml-[545px]">
                   _____________________
                 </div>
               </div>
@@ -39,29 +39,29 @@ const Ahero2 = () => {
                     1/3 Milk
                   </h1>
                 </div>
-                <div className="grid grid-cols-2 -ml-[120px]">
+                <div className="grid grid-cols-2 -ml-[90px]">
                   <div>
-                    <h1 className="font-leckerli text-mytext2/60 lg:text-[50px] lg:-ml-[410px] lg:-mt-1">
+                    <h1 className="font-leckerli text-[12px] mt-1 text-mytext2/60 lg:text-[50px] lg:-ml-[410px] lg:-mt-1">
                       50%
                     </h1>
                   </div>
-                  <div className="lg:hidden text-mytext2/60  -mt-2 -ml-[110px]">
-                    _________
+                  <div className="lg:hidden text-mytext2/60 -mt-1 -ml-[90px]">
+                    _______
                   </div>
                 </div>
               </div>
             </div>
             {/* Left side container 2 ahm pa  */}
-            <div className="lg:mt-[100px] lg:ml-[140px] -mt-[110px] ">
+            <div className="lg:mt-[100px] lg:ml-[140px] -mt-[114px] ">
               <div className="grid grid-cols-2 ">
                 <h1 className="font-leckerli text-mytext2/60 text-[10px] lg:text-[30px] ">
                   Latte
                 </h1>
-                <div className="max-sm:hidden text-mytext2/60 lg:text-4xl  lg:-mt-6 lg:-ml-[545px]">
+                <div className="max-sm:hidden text-mytext2/60 lg:text-4xl  lg:-mt-4 lg:-ml-[545px]">
                   _____________________
                 </div>
               </div>
-              <div className="lg:py-4 grid grid-cols-2 ">
+              <div className="lg:py-4  grid grid-cols-2 ">
                 <div>
                   <h1 className="font-leckerli lg:text-2xl  lg:-mt-3 text-[10px]  text-mytext2/60">
                     2/3 Coffee
@@ -70,14 +70,14 @@ const Ahero2 = () => {
                     1/3 Milk
                   </h1>
                 </div>
-                <div className="grid grid-cols-2 -ml-[120px]">
+                <div className="grid grid-cols-2  -ml-[90px]">
                   <div>
-                    <h1 className="font-leckerli text-mytext2/60 lg:text-[50px] lg:-ml-[410px] lg:-mt-1">
+                    <h1 className="font-leckerli text-[12px] mt-1 text-mytext2/60 lg:text-[50px] lg:-ml-[410px] lg:-mt-1">
                       50%
                     </h1>
                   </div>
-                  <div className="lg:hidden text-mytext2/60  -mt-2 -ml-[110px]">
-                    _________
+                  <div className="lg:hidden text-mytext2/60  -mt-2 -ml-[90px]">
+                    _______
                   </div>
                 </div>
               </div>
@@ -86,96 +86,94 @@ const Ahero2 = () => {
         </div>
 
         {/* Right side container 1 ahm pa  */}
-        <div className="lg:ml-[1400px] lg:mt-[-345px] mt-[-50px]">
-          <div className="grid grid-cols-2 ">
-            <h1 className="font-leckerli text-mytext2/60 text-[10px] lg:text-[30px] ml-[300px] -mt-[10px] lg:-mt-1.5  lg:ml-[-180px] ">
+        <div className="lg:ml-[1400px] lg:mt-[-285px] mt-[-50px]">
+          <div className="grid grid-cols-2  ">
+            <h1 className="font-leckerli text-mytext2/60 text-[10px] lg:text-[30px] ml-[250px] -mt-[14px] lg:-mt-1.5  lg:ml-[-180px] ">
               Black
             </h1>
             <div className="max-sm:hidden text-mytext2/60 lg:text-4xl  lg:-mt-6 lg:-ml-[545px]">
               _____________________
             </div>
-            <h1 className="font-leckerli text-mytext2/60 text-[8px] lg:text-[30px] ml-[112px] lg:-mt-1.5 lg:ml-[-280px]">
+            <h1 className="font-leckerli text-mytext2/60 text-[6px] ml-[100px] lg:text-[30px]  lg:-mt-1.5 lg:ml-[-280px]">
               1 cup of coffee <br />
               Not Sugar 50%
             </h1>
-            <div className="lg:hidden text-mytext2/60  -mt-8 ml-[220px]">
-              _________
+            <div className="lg:hidden text-mytext2/60  -mt-[30px] ml-[200px]">
+              ______
             </div>
           </div>
         </div>
         {/* Right side container 2 ahm pa  */}
-        <div className="lg:ml-[1400px] lg:mt-[125px] mt-[40px]">
+        <div className="lg:ml-[1400px] lg:mt-[125px] mt-[55px]">
           <div className="grid grid-cols-2 ">
-            <h1 className="font-leckerli text-mytext2/60 text-[10px] lg:text-[30px] ml-[300px] -mt-[10px] lg:-mt-1.5  lg:ml-[-180px] ">
+            <h1 className="font-leckerli text-mytext2/60 text-[10px] lg:text-[30px] ml-[250px] -mt-[14px] lg:-mt-1.5  lg:ml-[-180px] ">
               Black
             </h1>
             <div className="max-sm:hidden text-mytext2/60 lg:text-4xl  lg:-mt-6 lg:-ml-[545px]">
               _____________________
             </div>
-            <h1 className="font-leckerli text-mytext2/60 text-[8px]  lg:text-[30px] ml-[112px] lg:-mt-1.5 lg:ml-[-280px]">
+            <h1 className="font-leckerli text-mytext2/60 text-[6px] ml-[100px]  lg:text-[30px]  lg:-mt-1.5 lg:ml-[-280px]">
               1 cup of coffee <br />
               Not Sugar 50%
             </h1>
-            <div className="lg:hidden text-mytext2/60   -mt-8 ml-[220px]">
-              _________
+            <div className="lg:hidden text-mytext2/60   -mt-[30px] ml-[200px]">
+              ______
             </div>
           </div>
         </div>
 
         {/* Icons images container uhhhhhhh  */}
         <div>
-          <div className="lg:grid lg:grid-cols-4 lg:px-32 lg:mt-14 grid grid-cols-2 px-14 mt-8 -ml-10">
+          <div className="lg:grid lg:grid-cols-4 lg:px-32 lg:mt-14 grid grid-cols-2 px-2 mt-8 -ml-4">
             <div className="mt-10 ml-16">
               <img
                 src={AIMG3}
                 alt="Aimg3"
-                className="rounded-full lg:p-12 lg:w-[250px] lg:h-[250px] w-[55px] h-[55px] ml-3  "
+                className="rounded-full lg:p-12 lg:w-[250px] lg:h-[250px] w-[45px] h-[45px] -ml-[1px]  "
               />
-              <h1 className="font-leckerli text-mytext2 lg:ml-12 lg:text-[30px] mt-2 text-[14px] ">
+              <h1 className="font-leckerli text-mytext2 lg:ml-12 lg:text-[30px] mt-2 text-[8px] ">
                 Picked bean
               </h1>
-              <p className="lg:w-[200px] lg:ml-10 text-center lg:text-[18px] text-[12px] w-[125px] -ml-5 text-mytext2 ">
+              <p className="lg:w-[200px] lg:ml-10 text-center lg:text-[18px] text-[8px] w-[125px] -ml-10 text-mytext2 ">
                 Handpicked, sun-dried, aromatic coffee beans.
               </p>
             </div>
             <div className="mt-10 ml-16">
               <img
                 src={AIMG4}
-                alt="Aimg4"
-                className="rounded-full lg:p-12 lg:w-[250px] lg:h-[250px] w-[55px] h-[55px] ml-3  "
+                alt="Aimg3"
+                className="rounded-full lg:p-12 lg:w-[250px] lg:h-[250px] w-[45px] h-[45px] -ml-[1px]  "
               />
-              <h1 className="font-leckerli text-mytext2 lg:ml-12 lg:text-[30px] mt-2 text-[14px] ">
+              <h1 className="font-leckerli text-mytext2 lg:ml-12 lg:text-[30px] mt-2 text-[8px] ">
                 French Press
               </h1>
-              <p className="lg:w-[200px] lg:ml-10 text-center lg:text-[18px] text-[12px] w-[125px] -ml-5 text-mytext2 ">
+              <p className="lg:w-[200px] lg:ml-10 text-center lg:text-[18px] text-[8px] w-[125px] -ml-10 text-mytext2 ">
                 Bold, robust, rich, full-bodied delight.
               </p>
             </div>
             <div className="mt-10 ml-16">
               <img
                 src={AIMG5}
-                alt="Aimg5"
-                className="rounded-full lg:p-12 lg:w-[250px] lg:h-[250px] w-[55px] h-[55px] ml-3  "
+                alt="Aimg3"
+                className="rounded-full lg:p-12 lg:w-[250px] lg:h-[250px] w-[45px] h-[45px] -ml-[1px]  "
               />
-              <h1 className="font-leckerli text-mytext2 lg:ml-12 lg:text-[28px] mt-2 text-[12px] ">
+              <h1 className="font-leckerli text-mytext2 lg:ml-12 lg:text-[28px] mt-2 text-[8px] ">
                 Ready to Drink
               </h1>
-              <p className="lg:w-[200px] lg:ml-12 lg:text-center lg:text-[18px] text-[12px] w-[110px] -ml-2 text-center text-mytext2 ">
-                {" "}
+              <p className="lg:w-[200px] lg:ml-10 text-center lg:text-[18px] text-[8px] w-[125px] -ml-10 text-mytext2 ">
                 an instant escape in every cup
               </p>
             </div>
             <div className="mt-10 ml-16">
               <img
                 src={AIMG6}
-                alt="Aimg6"
-                className="rounded-full lg:p-12 lg:w-[250px] lg:h-[250px] w-[55px] h-[55px] ml-3  "
+                alt="Aimg3"
+                className="rounded-full lg:p-12 lg:w-[250px] lg:h-[250px] w-[45px] h-[45px] -ml-[1px]  "
               />
-              <h1 className="font-leckerli text-mytext2 lg:ml-12 lg:text-[30px] mt-2 text-[14px] ">
+              <h1 className="font-leckerli text-mytext2 lg:ml-12 lg:text-[30px] mt-2 text-[8px] ">
                 Quality coffee
               </h1>
-              <p className="lg:w-[200px] lg:ml-10 text-center lg:text-[18px] text-[12px] w-[100px]  -ml-2 text-mytext2 ">
-                {" "}
+              <p className="lg:w-[200px] lg:ml-10 text-center lg:text-[18px] text-[8px] w-[125px] -ml-10 text-mytext2 ">
                 unparalleled flavor experience
               </p>
             </div>
@@ -214,14 +212,14 @@ const Ahero2 = () => {
                 />
               </div>
               {/* Mobile screen  */}
-              <div className="lg:hidden lg:mt-[60px] ml-[130px]">
+              <div className="lg:hidden lg:mt-[60px] ml-[100px]">
                 <img
                   src={AIMG7}
                   alt="Aimg7"
                   className="rounded-full w-[110px] h-[110px]"
                 />
               </div>
-              <div className="lg:hidden w-[300px] mt-[15px]  text-[10px] text-center ml-[25px] lg:text-sm">
+              <div className="lg:hidden w-[300px] mt-[15px]  text-[8px] text-center ml-[-2px] lg:text-sm">
                 <p className="text-myfont2">
                   Discover a haven of culinary delight at our cafe, where every
                   detail reflects our commitment to excellence. Nestled in
