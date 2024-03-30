@@ -9,15 +9,15 @@ import { FaYoutube, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-black/80 py-10 sm:py-10  md:py-12 lg:py-16 text-white">
-        <div className="container mx-auto px-4  sm:px-6 lg:px-8">
+      <footer className="bg-black/80 py-10 sm:py-10 md:py-12 lg:py-16 text-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {/* About us */}
-            <div className="max-sm:text-center">
+            <div className="max-sm:text-center sm:text-left">
               <h1 className="text-2xl lg:ml-5 lg:text-4xl mb-4 font-playfairDisplay">
                 About Us
               </h1>
-              <p className="text-sm lg:-ml-26 lg:text-base">
+              <p className="text-sm lg:text-base">
                 Our coffee shop offers a cozy ambiance and a diverse menu of
                 premium, globally sourced coffees. With skilled baristas, we
                 ensure each cup is crafted with passion. Join us for a
@@ -47,34 +47,34 @@ const Footer = () => {
             </div>
 
             {/* Open Hours */}
-            <div className=" lg:ml-6  ">
+            <div className="lg:ml-6">
               <h1 className="text-2xl max-sm:ml-[110px] lg:text-4xl mb-4 font-playfairDisplay">
                 Open Hours
               </h1>
               <p className="text-xs max-sm:ml-[90px] lg:text-base">
                 Monday - Friday....6Am - 10Pm
               </p>
-              <p className="text-xs max-sm:ml-[80px] lg:text-base">
+              <p className="text-xs max-sm:ml-[90px] lg:text-base">
                 Weekend days....12Am - 12Pm
               </p>
             </div>
 
             {/* Newsletter */}
-            <div className="text-center  ">
-              <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
+            <div className="text-center lg:ml-16 sm:text-right">
+              <h1 className="text-2xl   lg:text-4xl mb-4 font-playfairDisplay">
                 Newsletter
               </h1>
-              <div className="flex">
+              <div className="flex flex-col sm:flex-row items-center sm:items-start">
                 <input
-                  className="flex-grow mr-2 text-center border border-white bg-transparent rounded-lg lg:text-lg outline-none"
+                  className="flex-grow mr-2 text-center border border-white bg-transparent rounded-lg lg:text-lg outline-none mb-2 sm:mb-0"
                   type="email"
                   placeholder="Enter your mail"
                 />
-                <button className="bg-mytext1 text-white px-4 py-2  rounded-md text-sm lg:text-base">
+                <button className="bg-mytext1 text-white px-4 py-2 rounded-md text-sm lg:text-base">
                   <IoMdSend />
                 </button>
               </div>
-              <div className="flex space-x-5 lg:ml-10 max-sm:ml-[95px] lg:mt-8 mt-4">
+              <div className="flex justify-center sm:justify-start space-x-5 lg:ml-10 max-sm:ml-[20px] lg:mt-8 mt-4">
                 <SiFacebook size={24} />
                 <BsTwitterX size={24} />
                 <FaYoutube size={24} />
