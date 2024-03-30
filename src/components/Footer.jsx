@@ -17,7 +17,7 @@ const Footer = () => {
               <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
                 About Us
               </h1>
-              <p className="text-sm lg:text-base">
+              <p className="text-sm lg:-ml-6 lg:text-base">
                 Our coffee shop offers a cozy ambiance and a diverse menu of
                 premium, globally sourced coffees. With skilled baristas, we
                 ensure each cup is crafted with passion. Join us for a
@@ -59,11 +59,12 @@ const Footer = () => {
             </div>
 
             {/* Newsletter */}
-            <div className="text-center lg:ml-16 sm:text-right">
-              <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
+
+            <div className="text-center lg:ml-16  sm:text-right">
+              <h1 className="text-2xl lg:flex lg:ml-8 lg:text-4xl mb-4 font-playfairDisplay">
                 Newsletter
               </h1>
-              <div className="flex flex-col sm:flex-row items-center sm:items-start">
+              <div className="flex flex-col lg:mt-6 sm:flex-row items-center sm:items-start">
                 <input
                   className="flex-grow mr-2 text-center border border-white bg-transparent rounded-lg lg:text-lg outline-none mb-2 sm:mb-0"
                   type="email"
