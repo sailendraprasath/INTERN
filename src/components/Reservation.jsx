@@ -7,36 +7,37 @@ const Reservation = () => {
   return (
     <>
       <Navbar />
-      <div className="cursor-default select-none">
+      <div className="cursor-default max-sm:mx-auto max-sm:max-w-[350px] select-none">
         <div>
-          <h1 className="lg:text-6xl text-4xl font-playfairDisplay text-mytext1 text-center">
+          <h1 className="lg:text-6xl  max-sm:ml-[25px] max-sm:px-2 text-4xl font-playfairDisplay text-mytext1 text-center">
             Book Your Table
           </h1>
         </div>
 
-        <div className="  text-center lg:text-2xl -mt-6 py-4 text-mytext2/75 lg:text-mytext2/35 ">
+        <div className="  text-center lg:text-2xl  -mt-6 py-4 text-mytext2/75 lg:text-mytext2/35 ">
           <h1 className="max-sm:hidden">
             ____________________________________
           </h1>
           <h1 className="max-sm:hidden lg:-mt-[20px] -mt-[18px]">
             ________________________
           </h1>
-          <h1 className="lg:hidden">
-            _______________________________________________
+          <h1 className="lg:hidden ml-6">
+            __________________________________________
           </h1>
-          <h1 className="lg:hidden lg:-mt-[20px] -mt-[18px]">
+          <h1 className="lg:hidden lg:-mt-[20px] ml-5 -mt-[18px]">
             _________________________________
           </h1>
-        </div>
-        <div className="lg:-mt-[80px] py-4 -mt-[50px] ml-[200px] lg:ml-[730px] lg:py-8">
-          <img
-            src={RIMG}
-            alt=""
-            className=" lg:w-[40px] w-[25px] h-[25px] lg:h-[40px] rounded-full"
-          />
+
+          <div className="lg:-mt-[60px] py-4 -mt-[35px] ml-[173px] max-sm:relative lg:ml-[730px] lg:py-8">
+            <img
+              src={RIMG}
+              alt=""
+              className=" lg:w-[40px] w-[25px] h-[25px] lg:h-[40px] rounded-full"
+            />
+          </div>
         </div>
         <div>
-          <p className="text-mytext2 text-center max-sm:text-[12px] ml-[100px] lg:ml-[450px] w-[250px] lg:w-[600px]">
+          <p className="text-mytext2 text-center max-sm:text-[14px] max-sm:-mt-3 ml-[70px] lg:ml-[450px] w-[250px] lg:w-[600px]">
             Sip happens, but coffee helps. It's not just a beverage; it's a hug
             in a mug, a moment of sanity in a world gone latte
           </p>

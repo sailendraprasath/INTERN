@@ -11,7 +11,7 @@ const Ahero2 = () => {
     <>
       <div className="max-w-[1640px] max-sm:max-w-[320px] mx-auto p-4 cursor-default select-none">
         <div className="max-h-[500px] relative ">
-          <h1 className="text-mytext1 font-playfairDisplay text-center mt-10 lg:text-6xl text-2xl ">
+          <h1 className="text-mytext1  font-playfairDisplay text-center mt-10 lg:text-6xl text-[30px] ">
             Our Popular Picks
           </h1>
           <img
@@ -188,8 +188,8 @@ const Ahero2 = () => {
           <div>
             <div className="lg:grid lg:grid-cols-2 py-10 grid grid-cols-1">
               {/* Large screen  */}
-              <div className="max-sm:hidden lg:w-[540px] lg:mt-[85px]  lg:ml-[280px] lg:text-lg">
-                <p className="text-myfont2">
+              <div className="max-sm:hidden lg:w-[540px]  lg:mt-[85px]  lg:ml-[280px] lg:text-lg">
+                <p className="text-myfont2 ">
                   Discover a haven of culinary delight at our cafe, where every
                   detail reflects our commitment to excellence. Nestled in
                   [location], our site exudes warmth and charm, inviting you to
@@ -212,14 +212,14 @@ const Ahero2 = () => {
                 />
               </div>
               {/* Mobile screen  */}
-              <div className="lg:hidden lg:mt-[60px] ml-[100px]">
+              <div className="lg:hidden lg:mt-[60px] ml-[75px]">
                 <img
                   src={AIMG7}
                   alt="Aimg7"
-                  className="rounded-full w-[110px] h-[110px]"
+                  className="rounded-full w-[160px] h-[160px]"
                 />
               </div>
-              <div className="lg:hidden w-[300px] mt-[15px]  text-[8px] text-center ml-[-2px] lg:text-sm">
+              <div className="lg:hidden w-[300px] mt-[15px]  text-[15px]  ml-[-2px] ">
                 <p className="text-myfont2">
                   Discover a haven of culinary delight at our cafe, where every
                   detail reflects our commitment to excellence. Nestled in

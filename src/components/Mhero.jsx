@@ -5,7 +5,7 @@ import MIMG2 from "../assets/Mimg/Mimg2.png";
 const Mhero = () => {
   return (
     <>
-      <div className="grid justify-center  ml-6 lg:ml-[-150px] -mt-14 lg:py-[20px] items-center lg:-mt-10 max-sm:max-w-[350px] max-w-[1640px] mx-auto p-4 table-fixed bg-myfont3 cursor-default select-none">
+      <div className="grid justify-center  ml-10 lg:ml-[-150px] -mt-14 lg:py-[20px] items-center lg:-mt-10 max-sm:max-w-[350px] max-sm:mx-auto max-w-[1640px] mx-auto p-4 table-fixed bg-myfont3 cursor-default select-none">
         {/* -mt-[150px]  */}
 
         <div className="bg-myMenu items-center lg:z-10 lg:ml-[200px] py-1  w-[160px] h-[190px]  lg:w-[314px] lg:h-[360px] rounded-full relative mt-16 ">
@@ -49,7 +49,7 @@ const Mhero = () => {
           <img
             src={MIMG2}
             alt="Mimg"
-            className="lg:w-[160px] lg:h-[140px] w-[120px] h-[100px] py-3  rounded-full"
+            className="lg:w-[160px] lg:h-[160px] w-[100px] h-[100px] py-3  rounded-full"
           />
         </div>
 
@@ -81,7 +81,7 @@ const Mhero = () => {
           </div>
         </div>
 
-        <div className="lg:-mt-[700px] mt-[-460px] ml-[125px]  lg:z-30 bg-mytext1 lg:ml-[460px] lg:w-[300px] w-[180px] h-[180px] lg:h-[300px] rounded-full relative ">
+        <div className="lg:-mt-[700px] mt-[-440px] ml-[135px]  lg:z-30 bg-mytext1 lg:ml-[460px] lg:w-[300px] w-[180px] h-[180px] lg:h-[300px] rounded-full relative ">
           <h1 className="lg:text-[35px] lg:ml-[105px] ml-[70px] text-[20px] py-3 lg:py-10 font-pacifico underline text-myMenu ">
             Coffee
           </h1>

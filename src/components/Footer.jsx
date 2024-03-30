@@ -9,12 +9,12 @@ import { FaYoutube, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-black/80 py-10 sm:py-10 md:py-12 lg:py-16 text-white">
+      <footer className="bg-black/80 py-4  sm:py-10 md:py-12 lg:py-16 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {/* About us */}
-            <div className="max-sm:text-center sm:text-left">
-              <h1 className="text-2xl lg:ml-5 lg:text-4xl mb-4 font-playfairDisplay">
+            <div className="max-sm:text-center  sm:text-left">
+              <h1 className="text-2xl lg:ml-12 lg:text-4xl mb-4 font-playfairDisplay">
                 About Us
               </h1>
               <p className="text-sm lg:text-base">
@@ -26,36 +26,32 @@ const Footer = () => {
             </div>
 
             {/* Contact Us */}
-            <div className="max-sm:ml-[50px] lg:ml-10">
-              <h1 className="text-2xl max-sm:ml-[75px] lg:text-4xl mb-4 font-playfairDisplay">
+            <div className="max-sm:text-center lg:ml-8 sm:text-left">
+              <h1 className="text-2xl lg:ml-5 lg:text-4xl mb-4 font-playfairDisplay">
                 Contact Us
-              </h1>
-              <ul className="space-y-2 max-sm:ml-10">
-                <li className="flex items-center text-xs lg:text-base">
-                  <MdOutlineMail size={16} className="mr-2 " />
-                  <span>iorem@gmail.com</span>
-                </li>
-                <li className="flex items-center text-xs lg:text-base">
-                  <FiPhoneCall size={16} className="mr-2" />
+                <h1 className="flex items-center max-sm:text-[16px] lg:text-[18px] lg:-ml-20 lg:py-2 gap-2 justify-center">
+                  <MdOutlineMail />
+                  <span>lorem@gmail.com</span>
+                </h1>
+                <h1 className="flex items-center max-sm:text-[16px] lg:text-[18px] lg:-mt-2 lg:-ml-20 lg:gap-4 max-sm:gap-3 justify-center">
+                  <FiPhoneCall className="max-sm:-ml-3" />
                   <span>(+91-111 333 8888)</span>
-                </li>
-                <li className="flex items-center text-xs lg:text-base">
-                  <MdOutlineHome size={18} className="mr-2" />
+                </h1>
+                <h1 className="flex items-center max-sm:text-[16px] lg:text-[18px] max-sm:ml-12 lg:-ml-4  gap-2 justify-center">
+                  <MdOutlineHome className="lg:size-6 max-sm:size-5" />
                   <span>Your Home Address Here</span>
-                </li>
-              </ul>
+                </h1>
+              </h1>
             </div>
 
             {/* Open Hours */}
-            <div className="lg:ml-6">
-              <h1 className="text-2xl max-sm:ml-[110px] lg:text-4xl mb-4 font-playfairDisplay">
+            <div className="max-sm:text-center lg:ml-10 sm:text-left">
+              <h1 className="text-2xl lg:ml-3 lg:text-4xl mb-4 font-playfairDisplay">
                 Open Hours
               </h1>
-              <p className="text-xs max-sm:ml-[90px] lg:text-base">
+              <p className="text-sm lg:text-base">
                 Monday - Friday....6Am - 10Pm
-              </p>
-              <p className="text-xs max-sm:ml-[90px] lg:text-base">
-                Weekend days....12Am - 12Pm
+                <br /> Weekend days....12Am - 12Pm
               </p>
             </div>
 
@@ -84,7 +80,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <p className="text-white/55 py-6 text-center mt-6 text-xs lg:text-sm">
+      <p className="text-white/55 pb-3 lg:py-6 text-center mt-6 text-xs lg:text-sm">
         Copyright @ 2024 Pure Perk Café. All Rights Reserved.
       </p>
     </>
