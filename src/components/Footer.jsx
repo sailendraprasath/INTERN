@@ -9,12 +9,12 @@ import { FaYoutube, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-black/80 py-4  sm:py-10 md:py-12 lg:py-16 text-white">
+      <footer className="bg-black/80 py-4 sm:py-10 md:py-12 lg:py-16 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-            {/* About us */}
-            <div className="max-sm:text-center  sm:text-left">
-              <h1 className="text-2xl lg:ml-12 lg:text-4xl mb-4 font-playfairDisplay">
+            {/* About Us */}
+            <div className="max-sm:text-center sm:text-left lg:ml-12">
+              <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
                 About Us
               </h1>
               <p className="text-sm lg:text-base">
@@ -26,38 +26,41 @@ const Footer = () => {
             </div>
 
             {/* Contact Us */}
-            <div className="max-sm:text-center lg:ml-8 sm:text-left">
-              <h1 className="text-2xl lg:ml-5 lg:text-4xl mb-4 font-playfairDisplay">
+            <div className="max-sm:text-center  sm:text-left lg:ml-12">
+              <h1 className="text-2xl lg:text-4xl  mb-4 font-playfairDisplay">
                 Contact Us
-                <h1 className="flex items-center max-sm:text-[16px] lg:text-[18px] lg:-ml-20 lg:py-2 gap-2 justify-center">
+              </h1>
+              <div className="flex flex-col lg:gap-2 max-sm:text-[16px] lg:text-[18px] lg:-ml-20">
+                <div className="flex items-center gap-2 justify-center">
                   <MdOutlineMail />
                   <span>lorem@gmail.com</span>
-                </h1>
-                <h1 className="flex items-center max-sm:text-[16px] lg:text-[18px] lg:-mt-2 lg:-ml-20 lg:gap-4 max-sm:gap-3 justify-center">
-                  <FiPhoneCall className="max-sm:-ml-3" />
+                </div>
+                <div className="flex items-center gap-4 justify-center max-sm:gap-3">
+                  <FiPhoneCall className="max-sm:ml-2 lg:ml-4" />
                   <span>(+91-111 333 8888)</span>
-                </h1>
-                <h1 className="flex items-center max-sm:text-[16px] lg:text-[18px] max-sm:ml-12 lg:-ml-4  gap-2 justify-center">
-                  <MdOutlineHome className="lg:size-6 max-sm:size-5" />
+                </div>
+                <div className="flex items-center gap-2 justify-center max-sm:ml-12 lg:-ml-4">
+                  <MdOutlineHome className="lg:size-6 max-sm:size-5 lg:ml-[70px]" />
                   <span>Your Home Address Here</span>
-                </h1>
-              </h1>
+                </div>
+              </div>
             </div>
 
             {/* Open Hours */}
-            <div className="max-sm:text-center lg:ml-10 sm:text-left">
-              <h1 className="text-2xl lg:ml-3 lg:text-4xl mb-4 font-playfairDisplay">
+            <div className="max-sm:text-center sm:text-left lg:ml-10">
+              <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
                 Open Hours
               </h1>
               <p className="text-sm lg:text-base">
-                Monday - Friday....6Am - 10Pm
-                <br /> Weekend days....12Am - 12Pm
+                Monday - Friday: 6am - 10pm
+                <br />
+                Weekend days: 12am - 12pm
               </p>
             </div>
 
             {/* Newsletter */}
             <div className="text-center lg:ml-16 sm:text-right">
-              <h1 className="text-2xl   lg:text-4xl mb-4 font-playfairDisplay">
+              <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
                 Newsletter
               </h1>
               <div className="flex flex-col sm:flex-row items-center sm:items-start">
