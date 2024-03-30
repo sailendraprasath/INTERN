@@ -36,9 +36,13 @@ const Navbar = () => {
   return (
     <>
       <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4 table-fixed bg-myfont3 cursor-default select-none">
-        <div className="flex items-center lg:-mt-10">
+        <div className="flex items-center lg:-mt-6">
           <div>
-            <img src={NAVIMG} alt="" className="w-[132px] h-[156px]" />
+            <img
+              src={NAVIMG}
+              alt=""
+              className="lg:w-[132px] lg:h-[156px] max-sm:size-28"
+            />
           </div>
         </div>
         {/* nav links */}
@@ -69,7 +73,7 @@ const Navbar = () => {
 
         {/* mobile Search input */}
 
-        <div className="bg-gray-200 flex lg:hidden rounded-full items-center px-2 w-[200px] ">
+        <div className="bg-gray-200 flex lg:hidden rounded-full items-center h-[25px] px-2 w-[200px] ">
           <input
             className="bg-transparent p-2 focus:outline-none w-full"
             type="text"

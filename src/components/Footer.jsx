@@ -54,7 +54,7 @@ const Footer = () => {
               <p className="text-xs max-sm:ml-[90px] lg:text-base">
                 Monday - Friday....6Am - 10Pm
               </p>
-              <p className="text-xs max-sm:ml-[90px] lg:text-base">
+              <p className="text-xs max-sm:ml-[80px] lg:text-base">
                 Weekend days....12Am - 12Pm
               </p>
             </div>
