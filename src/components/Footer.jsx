@@ -82,7 +82,7 @@ const Footer = () => {
                 <SiFacebook size={24} className="max-sm:-ml-[180px]" />
                 <BsTwitterX size={24} />
                 <FaYoutube size={24} />
-                <FaInstagram size={24} />
+                <FaInstagram size={10} />
               </div>
             </div>
           </div>
