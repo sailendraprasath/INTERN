@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 max-sm:grid-cols-2 md:grid-cols-4 gap-8">
             {/* About Us */}
-            <div className="max-sm:text-center  lg:text-center sm:text-left ">
+            <div className="max-sm:text-center lg:ml-5  lg:text-center sm:text-left ">
               <h1 className="text-2xl  lg:text-4xl mb-4 font-playfairDisplay">
                 About Us
               </h1>
