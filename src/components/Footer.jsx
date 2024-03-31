@@ -13,11 +13,11 @@ const Footer = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 max-sm:grid-cols-2 md:grid-cols-4 gap-8">
             {/* About Us */}
-            <div className="max-sm:text-center sm:text-left lg:ml-12">
+            <div className="max-sm:text-center lg:text-center sm:text-left lg:-ml-1">
               <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
                 About Us
               </h1>
-              <p className="max-sm:text-[12px] lg:-ml-6 lg:text-base">
+              <p className="max-sm:text-[12px] lg:-ml-8 lg:text-base">
                 Our coffee shop offers a cozy ambiance and a diverse menu of
                 premium, globally sourced coffees. With skilled baristas, we
                 ensure each cup is crafted with passion. Join us for a
@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
 
             {/* Contact Us */}
-            <div className="max-sm:text-center  sm:text-left lg:ml-12">
+            <div className="max-sm:text-center  sm:text-left lg:ml-16">
               <h1 className="text-2xl lg:text-4xl  mb-4 font-playfairDisplay">
                 Contact Us
               </h1>
@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
 
             {/* Open Hours */}
-            <div className="max-sm:text-center sm:text-left lg:ml-10">
+            <div className="max-sm:text-center sm:text-left lg:ml-14">
               <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
                 Open Hours
               </h1>
