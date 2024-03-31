@@ -219,7 +219,7 @@ const Ahero2 = () => {
                   className="rounded-full w-[160px] h-[160px]"
                 />
               </div>
-              <div className="lg:hidden w-[300px] mt-[15px]  text-[15px]  ml-[-2px] ">
+              <div className="lg:hidden w-[300px] max-sm:text-center mt-[15px]  text-[15px]  ml-[-2px] ">
                 <p className="text-myfont2">
                   Discover a haven of culinary delight at our cafe, where every
                   detail reflects our commitment to excellence. Nestled in
