@@ -13,8 +13,8 @@ const Footer = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 max-sm:grid-cols-2 md:grid-cols-4 gap-8">
             {/* About Us */}
-            <div className="max-sm:text-center lg:text-center sm:text-left lg:-ml-1">
-              <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
+            <div className="max-sm:text-center  lg:text-center sm:text-left ">
+              <h1 className="text-2xl  lg:text-4xl mb-4 font-playfairDisplay">
                 About Us
               </h1>
               <p className="max-sm:text-[12px] lg:-ml-8 lg:text-base">
@@ -82,7 +82,7 @@ const Footer = () => {
                 <SiFacebook size={24} className="max-sm:-ml-[180px]" />
                 <BsTwitterX size={24} />
                 <FaYoutube size={24} />
-                <FaInstagram size={10} />
+                <FaInstagram size={24} />
               </div>
             </div>
           </div>
