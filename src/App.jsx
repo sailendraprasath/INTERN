@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Menu from "./components/Menu";
 import Reservation from "./components/Reservation";
+import Contcact from "./components/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="About" element={<About />} />
           <Route path="Menu" element={<Menu />} />
           <Route path="Reservation" element={<Reservation />} />
+          <Route path="Contact" element={<Contcact />} />
         </Routes>
       </BrowserRouter>
     </>

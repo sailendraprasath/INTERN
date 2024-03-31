@@ -30,7 +30,7 @@ const Navbar = () => {
       link: "/reservation",
       icon: <RiReservedFill size={26} />,
     },
-    { name: "CONTACT", link: "/", icon: <IoMdContact size={26} /> },
+    { name: "CONTACT", link: "/Contact", icon: <IoMdContact size={26} /> },
   ];
 
   return (

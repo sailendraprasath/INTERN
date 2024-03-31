@@ -1,19 +1,23 @@
 import React from "react";
 import { MdOutlineMail, MdOutlineHome } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
-import { IoMdSend } from "react-icons/io";
+import { IoMdSend, IoMdContact } from "react-icons/io";
 import { SiFacebook } from "react-icons/si";
 import { BsTwitterX } from "react-icons/bs";
 import { FaYoutube, FaInstagram } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
+import { PiHandTapFill } from "react-icons/pi";
 
 const Footer = () => {
+  const Navigate = useNavigate();
+
   return (
     <>
-      <footer className="bg-black/80 py-4 sm:py-10 md:py-12 lg:py-16 text-white">
+      <footer className="bg-black/80 py-4  sm:py-10 md:py-12 lg:py-16 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 max-sm:grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* About Us */}
-            <div className="max-sm:text-center  lg:text-center sm:text-left ">
+            <div className="max-sm:text-center lg:ml-5  lg:text-center sm:text-left ">
               <h1 className="text-2xl  lg:text-4xl mb-4 font-playfairDisplay">
                 About Us
               </h1>
@@ -26,11 +30,21 @@ const Footer = () => {
             </div>
 
             {/* Contact Us */}
-            <div className="max-sm:text-center  sm:text-left lg:ml-16">
-              <h1 className="text-2xl lg:text-4xl  mb-4 font-playfairDisplay">
+
+            <div className="max-sm:text-center   sm:text-left lg:ml-20">
+              <h1 className="text-2xl max-sm:hidden lg:text-4xl  mb-4 font-playfairDisplay">
                 Contact Us
               </h1>
-              <div className="flex flex-col lg:gap-2 max-sm:gap-4 lg:text-[18px] lg:-ml-20">
+              <h1 className="lg:hidden text-2xl lg:text-4xl -mt-3  mb-4 font-playfairDisplay">
+                Contact Us
+              </h1>
+              <button
+                onClick={() => Navigate("/Contact")}
+                className="bg-mytext1 lg:hidden max-sm:w-14 max-sm:h-5 text-white  max-sm:py-4 max-sm:px-2.5 rounded-full text-sm lg:text-base"
+              >
+                <PiHandTapFill size={20} className="ml-2.5 -mt-2.5" />
+              </button>
+              <div className="flex max-sm:hidden flex-col lg:gap-2 max-sm:gap-4 lg:text-[18px] lg:-ml-20">
                 <div className="flex items-center gap-2 justify-center">
                   <MdOutlineMail className="size-4" />
                   <span className="max-sm:text-[13px]">lorem@gmail.com</span>
@@ -51,11 +65,11 @@ const Footer = () => {
             </div>
 
             {/* Open Hours */}
-            <div className="max-sm:text-center sm:text-left lg:ml-14">
+            <div className="max-sm:text-center max-sm:hidden sm:text-left lg:ml-14">
               <h1 className="text-2xl lg:text-4xl mb-4 font-playfairDisplay">
                 Open Hours
               </h1>
-              <p className="text-[10px] lg:text-base">
+              <p className="  text-[10px] lg:text-base">
                 Monday - Friday: 6am - 10pm
                 <br />
                 Weekend days: 12am - 12pm
@@ -79,7 +93,7 @@ const Footer = () => {
                 </button>
               </div>
               <div className="flex justify-center sm:justify-start  space-x-5 max-sm:py-2 max-sm:mx-auto lg:ml-10  lg:mt-8 mt-4">
-                <SiFacebook size={24} className="max-sm:-ml-[180px]" />
+                <SiFacebook size={24} className="" />
                 <BsTwitterX size={24} />
                 <FaYoutube size={24} />
                 <FaInstagram size={24} />
