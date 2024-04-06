@@ -9,7 +9,7 @@ const Reservation = () => {
       <Navbar />
       <div className="cursor-default max-sm:mx-auto max-sm:max-w-[350px] select-none">
         <div>
-          <h1 className="lg:text-6xl  max-sm:ml-[25px] max-sm:px-2 text-4xl font-playfairDisplay text-mytext1 text-center">
+          <h1 className="lg:text-6xl  max-sm:ml-[15px] max-sm:px-2 text-4xl font-playfairDisplay text-mytext1 text-center">
             Book Your Table
           </h1>
         </div>
@@ -21,10 +21,10 @@ const Reservation = () => {
           <h1 className="max-sm:hidden lg:-mt-[20px] -mt-[18px]">
             ________________________
           </h1>
-          <h1 className="lg:hidden ml-6">
+          <h1 className="lg:hidden ml-3">
             __________________________________________
           </h1>
-          <h1 className="lg:hidden lg:-mt-[20px] ml-5 -mt-[18px]">
+          <h1 className="lg:hidden lg:-mt-[20px] ml-3 -mt-[18px]">
             _________________________________
           </h1>
 
@@ -37,7 +37,7 @@ const Reservation = () => {
           </div>
         </div>
         <div>
-          <p className="text-mytext2 text-center max-sm:text-[14px] max-sm:-mt-3 ml-[70px] lg:ml-[450px] w-[250px] lg:w-[600px]">
+          <p className="text-mytext2 max-sm:px-4 text-center max-sm:text-[14px] max-sm:-mt-3 max-sm:ml-[20px] lg:ml-[450px]   lg:w-[600px]">
             Sip happens, but coffee helps. It's not just a beverage; it's a hug
             in a mug, a moment of sanity in a world gone latte
           </p>
